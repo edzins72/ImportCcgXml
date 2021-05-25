@@ -39,6 +39,7 @@
             this.buttonDegpunkta = new System.Windows.Forms.Button();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripLabel = new System.Windows.Forms.ToolStripLabel();
+            this.buttonVelesanas2200 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.toolStrip1.SuspendLayout();
@@ -63,6 +64,7 @@
             // 
             this.tableLayoutPanel2.ColumnCount = 1;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel2.Controls.Add(this.buttonVelesanas2200, 0, 6);
             this.tableLayoutPanel2.Controls.Add(this.buttonVelesanas, 0, 5);
             this.tableLayoutPanel2.Controls.Add(this.buttonSekundes, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.buttonZinas1800, 0, 1);
@@ -72,22 +74,23 @@
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 3);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
-            this.tableLayoutPanel2.RowCount = 6;
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
+            this.tableLayoutPanel2.RowCount = 7;
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28531F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28531F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28531F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28531F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28531F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28531F));
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 14.28816F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(210, 337);
             this.tableLayoutPanel2.TabIndex = 2;
             // 
             // buttonVelesanas
             // 
             this.buttonVelesanas.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buttonVelesanas.Location = new System.Drawing.Point(3, 283);
+            this.buttonVelesanas.Location = new System.Drawing.Point(3, 243);
             this.buttonVelesanas.Name = "buttonVelesanas";
-            this.buttonVelesanas.Size = new System.Drawing.Size(204, 51);
+            this.buttonVelesanas.Size = new System.Drawing.Size(204, 42);
             this.buttonVelesanas.TabIndex = 5;
             this.buttonVelesanas.Text = "900\'\' Vēlēšanas";
             this.buttonVelesanas.UseVisualStyleBackColor = true;
@@ -98,7 +101,7 @@
             this.buttonSekundes.Dock = System.Windows.Forms.DockStyle.Fill;
             this.buttonSekundes.Location = new System.Drawing.Point(3, 3);
             this.buttonSekundes.Name = "buttonSekundes";
-            this.buttonSekundes.Size = new System.Drawing.Size(204, 50);
+            this.buttonSekundes.Size = new System.Drawing.Size(204, 42);
             this.buttonSekundes.TabIndex = 0;
             this.buttonSekundes.Text = "900\'\'";
             this.buttonSekundes.UseVisualStyleBackColor = true;
@@ -107,9 +110,9 @@
             // buttonZinas1800
             // 
             this.buttonZinas1800.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buttonZinas1800.Location = new System.Drawing.Point(3, 59);
+            this.buttonZinas1800.Location = new System.Drawing.Point(3, 51);
             this.buttonZinas1800.Name = "buttonZinas1800";
-            this.buttonZinas1800.Size = new System.Drawing.Size(204, 50);
+            this.buttonZinas1800.Size = new System.Drawing.Size(204, 42);
             this.buttonZinas1800.TabIndex = 1;
             this.buttonZinas1800.Text = "Zinas 18:00";
             this.buttonZinas1800.UseVisualStyleBackColor = true;
@@ -118,9 +121,9 @@
             // buttonZinas2000
             // 
             this.buttonZinas2000.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buttonZinas2000.Location = new System.Drawing.Point(3, 115);
+            this.buttonZinas2000.Location = new System.Drawing.Point(3, 99);
             this.buttonZinas2000.Name = "buttonZinas2000";
-            this.buttonZinas2000.Size = new System.Drawing.Size(204, 50);
+            this.buttonZinas2000.Size = new System.Drawing.Size(204, 42);
             this.buttonZinas2000.TabIndex = 2;
             this.buttonZinas2000.Text = "Ziņas 20:00";
             this.buttonZinas2000.UseVisualStyleBackColor = true;
@@ -129,9 +132,9 @@
             // buttonSports
             // 
             this.buttonSports.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buttonSports.Location = new System.Drawing.Point(3, 171);
+            this.buttonSports.Location = new System.Drawing.Point(3, 147);
             this.buttonSports.Name = "buttonSports";
-            this.buttonSports.Size = new System.Drawing.Size(204, 50);
+            this.buttonSports.Size = new System.Drawing.Size(204, 42);
             this.buttonSports.TabIndex = 3;
             this.buttonSports.Text = "Sports";
             this.buttonSports.UseVisualStyleBackColor = true;
@@ -140,9 +143,9 @@
             // buttonDegpunkta
             // 
             this.buttonDegpunkta.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buttonDegpunkta.Location = new System.Drawing.Point(3, 227);
+            this.buttonDegpunkta.Location = new System.Drawing.Point(3, 195);
             this.buttonDegpunkta.Name = "buttonDegpunkta";
-            this.buttonDegpunkta.Size = new System.Drawing.Size(204, 50);
+            this.buttonDegpunkta.Size = new System.Drawing.Size(204, 42);
             this.buttonDegpunkta.TabIndex = 4;
             this.buttonDegpunkta.Text = "Degpunktā";
             this.buttonDegpunkta.UseVisualStyleBackColor = true;
@@ -164,6 +167,17 @@
             this.toolStripLabel.Name = "toolStripLabel";
             this.toolStripLabel.Size = new System.Drawing.Size(39, 22);
             this.toolStripLabel.Text = "Ready";
+            // 
+            // buttonVelesanas2200
+            // 
+            this.buttonVelesanas2200.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.buttonVelesanas2200.Location = new System.Drawing.Point(3, 291);
+            this.buttonVelesanas2200.Name = "buttonVelesanas2200";
+            this.buttonVelesanas2200.Size = new System.Drawing.Size(204, 43);
+            this.buttonVelesanas2200.TabIndex = 6;
+            this.buttonVelesanas2200.Text = "Vēlēšanas spec 22:00";
+            this.buttonVelesanas2200.UseVisualStyleBackColor = true;
+            this.buttonVelesanas2200.Click += new System.EventHandler(this.buttonVelesanas2200_Click);
             // 
             // Form1
             // 
@@ -196,6 +210,7 @@
         private System.Windows.Forms.Button buttonDegpunkta;
         private System.Windows.Forms.ToolStrip toolStrip1;
         private System.Windows.Forms.ToolStripLabel toolStripLabel;
+        private System.Windows.Forms.Button buttonVelesanas2200;
     }
 }
 

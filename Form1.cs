@@ -68,5 +68,14 @@ namespace ImportCcgXml
             WriteToFile.WriteCasparXmlFile(dati);
             toolStripLabel.Text = "900'' Vēlēšanām xml saglabāts";
         }
+
+        private async void buttonVelesanas2200_Click(object sender, EventArgs e)
+        {
+            toolStripLabel.Text = "Ielādēju Speciālizlaidumu 22:00";
+            var response = await RequestData.GetProductAsync(Raidijums.Specializlaidums2200);
+            var dati = DataProcessing.Zinas(response.XML);
+            WriteToFile.WriteCasparXmlFile(dati);
+            toolStripLabel.Text = "Speciālizlaidums 22:00 xml saglabāts";
+        }
     }
 }

@@ -14,6 +14,6 @@ namespace ImportCcgXml
         public static string Zinas2000 { get; } = "11";
         public static string Sports { get; } = "9";
         public static string Degpunkta { get; } = "5";
-
+        public static string Specializlaidums2200 { get; } = "25";
     }
 }
