@@ -19,63 +19,63 @@ namespace ImportCcgXml
 
         private async void buttonSekundes_Click(object sender, EventArgs e)
         {
-            toolStripLabel.Text = "Ielādēju 900''";
+            toolStripLabel.Text = "Ielādēju datus";
             var response = await RequestData.GetProductAsync(Raidijums.Sekundes);
             var dati = DataProcessing.Sekundes(response.XML);
             WriteToFile.WriteCasparXmlFile(dati);
-            toolStripLabel.Text = "900'' xml saglabāts";
+            toolStripLabel.Text = "XML saglabāts";
         }
 
         private async void buttonZinas1800_Click(object sender, EventArgs e)
         {
-            toolStripLabel.Text = "Ielādēju Ziņas 18:00";
+            toolStripLabel.Text = "Ielādēju datus";
             var response = await RequestData.GetProductAsync(Raidijums.Zinas1800);
             var dati = DataProcessing.Zinas(response.XML);
             WriteToFile.WriteCasparXmlFile(dati);
-            toolStripLabel.Text = "Ziņas 18:00 xml saglabāts";
+            toolStripLabel.Text = "XML saglabāts";
         }
 
         private async void buttonZinas2000_Click(object sender, EventArgs e)
         {
-            toolStripLabel.Text = "Ielādēju Ziņas 20:00";
+            toolStripLabel.Text = "Ielādēju datus";
             var response = await RequestData.GetProductAsync(Raidijums.Zinas2000);
             var dati = DataProcessing.Zinas(response.XML);
             WriteToFile.WriteCasparXmlFile(dati);
-            toolStripLabel.Text = "Ziņas 20:00 xml saglabāts";
+            toolStripLabel.Text = "XML saglabāts";
         }
 
         private async void buttonSports_Click(object sender, EventArgs e)
         {
-            toolStripLabel.Text = "Ielādēju Sporta ziņas";
+            toolStripLabel.Text = "Ielādēju datus";
             var response = await RequestData.GetProductAsync(Raidijums.Sports);
             WriteToFile.WriteCasparXmlFile(response.XML);
-            toolStripLabel.Text = "Sporta ziņas xml saglabāts";
+            toolStripLabel.Text = "XML saglabāts";
         }
 
         private async void buttonDegpunkta_Click(object sender, EventArgs e)
         {
-            toolStripLabel.Text = "Ielādēju Degpunktā";
+            toolStripLabel.Text = "Ielādēju datus";
             var response = await RequestData.GetProductAsync(Raidijums.Degpunkta);
             WriteToFile.WriteCasparXmlFile(response.XML);
-            toolStripLabel.Text = "Degpunktā xml saglabāts";
+            toolStripLabel.Text = "XML saglabāts";
         }
 
         private async void buttonVelesanas_Click(object sender, EventArgs e)
         {
-            toolStripLabel.Text = "Ielādēju 900'' Vēlēšanām";
-            var response = await RequestData.GetProductAsync(Raidijums.Sekundes);
+            toolStripLabel.Text = "Ielādēju datus";
+            var response = await RequestData.GetProductAsync(Raidijums.NovostiPlus);
             var dati = DataProcessing.Zinas(response.XML);
             WriteToFile.WriteCasparXmlFile(dati);
-            toolStripLabel.Text = "900'' Vēlēšanām xml saglabāts";
+            toolStripLabel.Text = "XML saglabāts";
         }
 
         private async void buttonVelesanas2200_Click(object sender, EventArgs e)
         {
-            toolStripLabel.Text = "Ielādēju Speciālizlaidumu 22:00";
+            toolStripLabel.Text = "Ielādēju datus";
             var response = await RequestData.GetProductAsync(Raidijums.Specializlaidums2200);
             var dati = DataProcessing.Zinas(response.XML);
             WriteToFile.WriteCasparXmlFile(dati);
-            toolStripLabel.Text = "Speciālizlaidums 22:00 xml saglabāts";
+            toolStripLabel.Text = "XML saglabāts";
         }
     }
 }

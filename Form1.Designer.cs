@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.buttonVelesanas2200 = new System.Windows.Forms.Button();
             this.buttonVelesanas = new System.Windows.Forms.Button();
             this.buttonSekundes = new System.Windows.Forms.Button();
             this.buttonZinas1800 = new System.Windows.Forms.Button();
@@ -39,7 +40,6 @@
             this.buttonDegpunkta = new System.Windows.Forms.Button();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.toolStripLabel = new System.Windows.Forms.ToolStripLabel();
-            this.buttonVelesanas2200 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.toolStrip1.SuspendLayout();
@@ -85,6 +85,17 @@
             this.tableLayoutPanel2.Size = new System.Drawing.Size(210, 337);
             this.tableLayoutPanel2.TabIndex = 2;
             // 
+            // buttonVelesanas2200
+            // 
+            this.buttonVelesanas2200.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.buttonVelesanas2200.Location = new System.Drawing.Point(3, 291);
+            this.buttonVelesanas2200.Name = "buttonVelesanas2200";
+            this.buttonVelesanas2200.Size = new System.Drawing.Size(204, 43);
+            this.buttonVelesanas2200.TabIndex = 6;
+            this.buttonVelesanas2200.Text = "Speciālizlaidums 22:00";
+            this.buttonVelesanas2200.UseVisualStyleBackColor = true;
+            this.buttonVelesanas2200.Click += new System.EventHandler(this.buttonVelesanas2200_Click);
+            // 
             // buttonVelesanas
             // 
             this.buttonVelesanas.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -92,7 +103,7 @@
             this.buttonVelesanas.Name = "buttonVelesanas";
             this.buttonVelesanas.Size = new System.Drawing.Size(204, 42);
             this.buttonVelesanas.TabIndex = 5;
-            this.buttonVelesanas.Text = "900\'\' Vēlēšanas";
+            this.buttonVelesanas.Text = "Novosti+";
             this.buttonVelesanas.UseVisualStyleBackColor = true;
             this.buttonVelesanas.Click += new System.EventHandler(this.buttonVelesanas_Click);
             // 
@@ -167,17 +178,6 @@
             this.toolStripLabel.Name = "toolStripLabel";
             this.toolStripLabel.Size = new System.Drawing.Size(39, 22);
             this.toolStripLabel.Text = "Ready";
-            // 
-            // buttonVelesanas2200
-            // 
-            this.buttonVelesanas2200.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.buttonVelesanas2200.Location = new System.Drawing.Point(3, 291);
-            this.buttonVelesanas2200.Name = "buttonVelesanas2200";
-            this.buttonVelesanas2200.Size = new System.Drawing.Size(204, 43);
-            this.buttonVelesanas2200.TabIndex = 6;
-            this.buttonVelesanas2200.Text = "Vēlēšanas spec 22:00";
-            this.buttonVelesanas2200.UseVisualStyleBackColor = true;
-            this.buttonVelesanas2200.Click += new System.EventHandler(this.buttonVelesanas2200_Click);
             // 
             // Form1
             // 

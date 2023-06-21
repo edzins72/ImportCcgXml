@@ -15,5 +15,6 @@ namespace ImportCcgXml
         public static string Sports { get; } = "9";
         public static string Degpunkta { get; } = "5";
         public static string Specializlaidums2200 { get; } = "25";
+        public static string NovostiPlus { get; } = "24";
     }
 }
